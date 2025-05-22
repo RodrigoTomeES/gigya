@@ -29,7 +29,7 @@ Please follow these steps to integrate Gigya within your Node JS application:
 After you have logged in the user, you may use Gigya's API to access the user's profile and perform various activities. The following example demonstrates fetching a user's profile.
 ````js
 // Include Gigya's SDK
-import Gigya from 'gigya';
+import { Gigya } from 'gigya';
 
 // Initialize SDK with your API Key and Secret.
 const gigya = new Gigya('YOUR_API_KEY', 'YOUR_DATA_CENTER', 'YOUR_SECRET');
